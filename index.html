@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Previsão do Tempo</title>
+  </head>
+  <body>
+    <img
+      class="fundo"
+      src="https://img.freepik.com/vetores-gratis/globo-em-abstrato_1048-12394.jpg?w=1380&t=st=1725785530~exp=1725786130~hmac=7a26989b0fd388bb638a8a19e33ea2c05f96ed8359c421cc6331fb3da11eb9ab"
+      alt="fundo"
+    />
+    <div class="caixa-pai">
+      <input placeholder="Digite o nome da Cidade" />
+      <button onclick="cliqueiNoBotao()">
+        <img
+          class="lupa"
+          width="30"
+          height="30"
+          src="https://img.icons8.com/ios-glyphs/30/search--v1.png"
+          alt="search--v1"
+        />
+      </button>
+      <div class="caixa-filha">
+        <h2 class="cidade">Tempo em Rio de Janeiro</h2>
+        <p class="temp">25°C</p>
+        <div class="caixa-neta">
+          <img
+            class="icone"
+            src="https://openweathermap.org/img/wn/04n.png"
+            alt="nuvem"
+          />
+          <p class="descricao">Nuvens Dispersas</p>
+        </div>
+
+        <p class="umidade">Umidade: 70%</p>
+      </div>
+    </div>
+  </body>
+  <script src="scripts.js"></script>
+</html>
